@@ -3,7 +3,7 @@
 
 some python tools
 
-### 🐶 file-transfer
+### 🐶 File Transfer
 a file transfer use aysncio
 ```bash
 # run server
