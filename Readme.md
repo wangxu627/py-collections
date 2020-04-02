@@ -4,8 +4,8 @@
 some python tools
 
 ### 🐶 File Transfer
-a file transfer use aysncio
 ```bash
+# a file transfer use aysncio
 # run server
 python file-transfer.py -s <SERVER-PORT>
 python file-transfer.py -c <SERVER-IP> <SERVER-PORT>
