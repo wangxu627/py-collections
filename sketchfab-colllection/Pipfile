@@ -1,0 +1,25 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[[source]]
+url = "https://pypi.tuna.tsinghua.edu.cn/simple"
+verify_ssl = true
+name = "tsinghua"
+
+[[source]]
+url = "http://pypi.douban.com/simple/"
+verify_ssl = false
+name = "douban"
+
+
+[dev-packages]
+
+[packages]
+aiohttp = {index = "douban",version = "*"}
+beautifulsoup4 = {index = "douban", version = "*"}
+
+
+[requires]
+python_version = "3.8"
