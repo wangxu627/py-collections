@@ -17,3 +17,11 @@ pipenv install
 pipenv run python stock_request_aio.py -t | -d
 pipenv run python stock_database.py -g | -a | -s
 ```
+
+
+###  ✈️ Sketchfab Collection
+```
+# add your download links in datasource.py files
+pipenv install
+pipenv run python get_sketchfab.py
+```
